@@ -32,11 +32,10 @@
 
     this.initialize();
 
-}
+};
 
 
-
-//$(document).ready(function () {
-//document.addEventListener("deviceready", function () {
+$(document).ready(function () {
     EmployeeView.template = Handlebars.compile($("#employee-tpl").html());
-//});
+});
+
