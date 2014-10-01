@@ -33,5 +33,7 @@
 
 }
 
-HomeView.template = Handlebars.compile($("#home-tpl").html());
-HomeView.liTemplate = Handlebars.compile($("#employee-li-tpl").html());
+//$(document).ready(function () {
+    HomeView.template = Handlebars.compile($("#home-tpl").html());
+    HomeView.liTemplate = Handlebars.compile($("#employee-li-tpl").html());
+//});

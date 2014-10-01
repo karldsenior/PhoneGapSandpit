@@ -34,4 +34,9 @@
 
 }
 
-EmployeeView.template = Handlebars.compile($("#employee-tpl").html());
+
+
+//$(document).ready(function () {
+//document.addEventListener("deviceready", function () {
+    EmployeeView.template = Handlebars.compile($("#employee-tpl").html());
+//});
