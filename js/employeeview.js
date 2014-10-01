@@ -35,7 +35,7 @@
 };
 
 
-$(document).ready(function () {
-    EmployeeView.template = Handlebars.compile($("#employee-tpl").html());
-});
+//$(document).ready(function () {
+//    EmployeeView.template = Handlebars.compile($("#employee-tpl").html());
+//});
 
